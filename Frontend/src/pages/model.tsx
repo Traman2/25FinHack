@@ -4,7 +4,7 @@ function Model() {
     return (
     <>
         <NavBar></NavBar>
-        <div className="m">
+        <div>
             <h1>Welcome to the Model Page</h1>
         <p>Add model code here for prediction analysis of healthcare analysis</p>
         </div>
