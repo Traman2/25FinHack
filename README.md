@@ -1,1 +1,1 @@
-MedCareAI
+RISHI 

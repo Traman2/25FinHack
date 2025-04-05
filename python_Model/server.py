@@ -1,9 +1,10 @@
 from flask import Flask, request, jsonify
 import pickle
 import numpy as np
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 # Load the pre-trained linear regression model
 model = pickle.load(open('model.pkl', 'rb'))
 
